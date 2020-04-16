@@ -1,67 +1,33 @@
 @echo off
-title ÎÄİæBAT¹¤¾ßÏä
+title æ–‡è±BATå·¥å…·ç®±
 mode con cols=100   lines=20
 color 1c
 echo ##############################################################################################
-echo »¶Ó­Ê¹ÓÃ  ÎÄİæBAT¹¤¾ßÏä £¡
-echo ¾¯¸æ: Ê¹ÓÃ±¾¹¤¾ßÇ°ÇëÎñ±Ø±£´æºÃÄúµÄÖØÒªÊı¾İ£¬ÇĞ¼ÇÇĞ¼Ç¡£ÈËÉú¿à¶Ì£¬×öºÃ±¸·İ
-echo   Powered By Wenxuan£¨ÎÄİæ£©  
-goto menu
-:menu
-echo ÇëÊäÈë1:Ç¿ÖÆÖØÆô×ÊÔ´¹ÜÀíÆ÷(×ÊÁÏ×Ü¹Ü[Ì¨Íå])
-echo ÇëÊäÈë2:ÖØÖÃÍøÂç½â¾ö·ÇÍøÂç¹ÊÕÏÒıÆğÎŞ·¨ÉÏÍøµÄÎÊÌâ£¨ĞèÒªÊ¹ÓÃ¹ÜÀíÔ±ÔËĞĞ£©
-echo ÇëÊäÈë3:ÖØÆô²Ù×÷ÏµÍ³(×÷ÒµÏµÍ³[Ì¨Íå])
-
-echo ÇëÊäÈë×ÖÄ¸q:ÍË³öBAT¹¤¾ßÏä
+	echo æ¬¢è¿ä½¿ç”¨  æ–‡è±BATå·¥å…·ç®± ï¼
+	echo è­¦å‘Š: ä½¿ç”¨æœ¬å·¥å…·å‰è¯·åŠ¡å¿…ä¿å­˜å¥½æ‚¨çš„é‡è¦æ•°æ®ï¼Œåˆ‡è®°åˆ‡è®°ã€‚äººç”Ÿè‹¦çŸ­ï¼Œåšå¥½å¤‡ä»½
+	echo   Powered By Wenxuanï¼ˆæ–‡è±ï¼‰  
+	:menu
+			echo è¯·è¾“å…¥1:å¼ºåˆ¶é‡å¯èµ„æºç®¡ç†å™¨(èµ„æ–™æ€»ç®¡[å°æ¹¾])
+			echo è¯·è¾“å…¥2:é‡ç½®ç½‘ç»œè§£å†³éç½‘ç»œæ•…éšœå¼•èµ·æ— æ³•ä¸Šç½‘çš„é—®é¢˜ï¼ˆéœ€è¦ä½¿ç”¨ç®¡ç†å‘˜è¿è¡Œï¼‰
+			echo è¯·è¾“å…¥3:é‡å¯æ“ä½œç³»ç»Ÿ(ä½œä¸šç³»ç»Ÿ[å°æ¹¾])
+			echo è¯·è¾“å…¥å­—æ¯q:é€€å‡ºBATå·¥å…·ç®±
 echo ###############################################################################################
-
-set /p  var=ÇëÊäÈëÏàÓ¦µÄÊı×Ö±àºÅ½øĞĞ²Ù×÷:
-
-if %var% equ 1    goto select1
-
-if %var% equ 2   goto select2 
-
-if %var% equ 3  goto select3 
-
-
-
-if %var%  equ q exit
-
-echo ÕıÔÚÏìÓ¦ÄãµÄÍË³ö²Ù×÷
-goto menu 
-
-pause
-
+set /p  var=è¯·è¾“å…¥ç›¸åº”çš„æ•°å­—ç¼–å·è¿›è¡Œæ“ä½œ:
+		if %var% equ 1   goto select1
+		if %var% equ 2   goto select2 
+		if %var% equ 3   goto select3 
+		if %var% equ q   exit
 :select1 
-echo ÕıÔÚÖØÆô×ÊÔ´¹ÜÀíÆ÷  
-tskill explorer
-echo  "×ÊÔ´¹ÜÀíÆ÷ÖØÆôÍê³É"
-goto menu
-
+	echo æ­£åœ¨é‡å¯èµ„æºç®¡ç†å™¨  
+	tskill explorer
+	echo  "èµ„æºç®¡ç†å™¨é‡å¯å®Œæˆ"
+	goto menu
 :select2 
-echo ÕıÔÚÖØÖÃÍøÂçÇëÉÔºò.....
-netsh winsock reset catalog  netsh int ipv4 reset reset.log  ipconfig /release ipconfig /renew
-
-echo ³É¹¦ÖØÖÃÍøÂç£¬Äú¿ÉÄÜĞèÒªÖØÆôÄúµÄ¼ÆËã»ú¡£
-goto menu
-
-
+	echo æ­£åœ¨é‡ç½®ç½‘ç»œè¯·ç¨å€™.....
+	netsh winsock reset catalog  netsh int ipv4 reset reset.log  ipconfig /release ipconfig /renew
+	echo æˆåŠŸé‡ç½®ç½‘ç»œï¼Œæ‚¨å¯èƒ½éœ€è¦é‡å¯æ‚¨çš„è®¡ç®—æœºã€‚
+	goto menu
 :select3
-
-shutdown -r -t 05  -c  ÎåÃëºóÖØÆôÏµÍ³
-goto menu
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+	shutdown -r -t 05  -c  äº”ç§’åé‡å¯ç³»ç»Ÿ
+	goto menu
+pause
