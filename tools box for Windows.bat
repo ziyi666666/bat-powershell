@@ -31,41 +31,41 @@ REM  QBFC Project Options End
 ::YxY4rhs+aU+IeA==
 ::cxY6rQJ7JhzQF1fEqQJjZk4aH0rQXA==
 @echo off
-title ÏµÍ³¹¤¾ßÏä
+title ç³»ç»Ÿå·¥å…·ç®±
 mode con  cols=100 lines=30
 color b1
-echo  »¶Ó­Ê¹ÓÃ ÏµÍ³¹¤¾ßÏä For Windows  7/10 /Windows Server °æ
-echo  ²¿·Ö¹¦ÄÜÐèÒª¹ÜÀíÔ±µÄÈ¨ÏÞ,ÇëÓÒ¼üÒÔ¹ÜÀíÔ±µÄÉí·ÝÔËÐÐ±¾³ÌÐò.
-echo  Author by TUNSG(Ì¨Íå.ÁªºÏ¹úÃØÊé³¤----×ÓÞÈ)
+echo  æ¬¢è¿Žä½¿ç”¨ ç³»ç»Ÿå·¥å…·ç®± For Windows  7/10 /Windows Server ç‰ˆ
+echo  éƒ¨åˆ†åŠŸèƒ½éœ€è¦ç®¡ç†å‘˜çš„æƒé™,è¯·å³é”®ä»¥ç®¡ç†å‘˜çš„èº«ä»½è¿è¡Œæœ¬ç¨‹åº.
+echo  Author by TUNSG(å°æ¹¾.è”åˆå›½ç§˜ä¹¦é•¿----å­å¥•)
 echo  Version 3.5
 echo  E-mail:lingxiao666@yahoo.com
-echo  Á³Êé(Facebook):wenjun666
+echo  è„¸ä¹¦(Facebook):wenjun666
 echo ############################################
 
 
 :menu
-	echo  1).°ïÖú
-	echo  2).²é¿´²Ù×÷ÏµÍ³°æ±¾
-	echo  3).²é¿´ÏµÍ³ÓÃ»§ÔÚÏßÇé¿ö
-	echo  4).²é¿´ÏµÍ³×ÊÔ´¼àÊÓÆ÷
-	echo  5).²é¿´ÏµÍ³ÐÔÄÜ¼àÊÓÆ÷
-	echo  6).²é¿´ÏµÍ³ÐÅÏ¢
-	echo  7).²é¿´ÊÂ¼þ¹ÜÀíÆ÷
-	echo  8).ÖØÆô×ÊÔ´¹ÜÀíÆ÷(¹ÜÀíÔ±)
-	echo  9).ÏµÍ³½¡¿µ¼ì²é,ÏµÍ³¾µÏñÐÞ¸´(¹ÜÀíÔ±)
-	echo  10).ÉÏÍø¹ÊÕÏÐÞ¸´(¹ÜÀíÔ±)
-	echo  11).ÊÍ·Åip,¼°Ë¢ÐÂDNS(¹ÜÀíÔ±)
-	echo  12).ÖØÖÃMicrosoft Store(Windows 10)
-	echo  13).»¹Ô­¼°»¹Ô­µãÉèÖÃÏòµ¼
-	echo  14).ÓÅ»¯´ÅÅÌÇý¶¯Æ÷
-	echo  15).±¸·Ý»ò»¹Ô­ÕË»§Ãû,ÃÜÂë
-	echo  16).´ÅÅÌÇåÀí
-	echo  17).ÎÄ¼þ¹²ÏíÏòµ¼
-	echo  18).´ò¿ªÈÎÎñ¼Æ»®³ÌÐò
-	echo  19).ÍË³ö
+	echo  1).å¸®åŠ©
+	echo  2).æŸ¥çœ‹æ“ä½œç³»ç»Ÿç‰ˆæœ¬
+	echo  3).æŸ¥çœ‹ç³»ç»Ÿç”¨æˆ·åœ¨çº¿æƒ…å†µ
+	echo  4).æŸ¥çœ‹ç³»ç»Ÿèµ„æºç›‘è§†å™¨
+	echo  5).æŸ¥çœ‹ç³»ç»Ÿæ€§èƒ½ç›‘è§†å™¨
+	echo  6).æŸ¥çœ‹ç³»ç»Ÿä¿¡æ¯
+	echo  7).æŸ¥çœ‹äº‹ä»¶ç®¡ç†å™¨
+	echo  8).é‡å¯èµ„æºç®¡ç†å™¨(ç®¡ç†å‘˜)
+	echo  9).ç³»ç»Ÿå¥åº·æ£€æŸ¥,ç³»ç»Ÿé•œåƒä¿®å¤(ç®¡ç†å‘˜)
+	echo  10).ä¸Šç½‘æ•…éšœä¿®å¤(ç®¡ç†å‘˜)
+	echo  11).é‡Šæ”¾ip,åŠåˆ·æ–°DNS(ç®¡ç†å‘˜)
+	echo  12).é‡ç½®Microsoft Store(Windows 10)
+	echo  13).è¿˜åŽŸåŠè¿˜åŽŸç‚¹è®¾ç½®å‘å¯¼
+	echo  14).ä¼˜åŒ–ç£ç›˜é©±åŠ¨å™¨
+	echo  15).å¤‡ä»½æˆ–è¿˜åŽŸè´¦æˆ·å,å¯†ç 
+	echo  16).ç£ç›˜æ¸…ç†
+	echo  17).æ–‡ä»¶å…±äº«å‘å¯¼
+	echo  18).æ‰“å¼€ä»»åŠ¡è®¡åˆ’ç¨‹åº
+	echo  19).é€€å‡º
 echo ############################################
 
-set  /p  number="ÇëÊäÈëÊý×Ö±àºÅ: "
+set  /p  number="è¯·è¾“å…¥æ•°å­—ç¼–å·: "
 
 	if  %number%==1   goto select1
 	if  %number%==2   goto select2
@@ -79,7 +79,7 @@ set  /p  number="ÇëÊäÈëÊý×Ö±àºÅ: "
 	if  %number%==10  goto  select10
 	if  %number%==11  goto  select11
 	if  %number%==12  goto  select12
-	if  %number%==13	  goto  select13
+	if  %number%==11  goto  select13
 	if  %number%==14  goto  select14 
 	if  %number%==15  goto  select15
 	if  %number%==16  goto  select16
@@ -149,7 +149,7 @@ set  /p  number="ÇëÊäÈëÊý×Ö±àºÅ: "
 	taskschd.msc
 	goto menu
 :select19
-	echo  ¸ÐÐ»ÄúµÄÊ¹ÓÃÓëÖ§³Ö,×£Äú¹¤×÷Óä¿ì,Ë³ÐÄ,ÔÙ¼û!
+	echo  æ„Ÿè°¢æ‚¨çš„ä½¿ç”¨ä¸Žæ”¯æŒ,ç¥æ‚¨å·¥ä½œæ„‰å¿«,é¡ºå¿ƒ,å†è§!
 	TIMEOUT /T 5 /NOBREAK
 	exit		
 pause>nul
