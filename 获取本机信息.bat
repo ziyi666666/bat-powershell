@@ -1,8 +1,8 @@
 @echo   off
 
-title cmdÔËĞĞpowershellÖ¸Áî
+title cmdè¿è¡ŒpowershellæŒ‡ä»¤
 
-powershell  -c  "echo ±¾»úipÊÇ:; (get-netipconfiguration -interfacealias "ÒÔÌ«Íø").ipv4address.ipaddress;echo ÄúµÄ²Ù×÷ÏµÍ³°æ±¾ÊÇ:;wmic os  get caption;echo µ±Ç°µÇÂ¼Ö÷»úÕË»§Ãû:;[environment]::UserName;echo µ±Ç°Ö÷»úÃû:;[environment]::machinename;echo µ±Ç°Ö÷»ú´ÅÅÌÊ¹ÓÃÇé¿ö:;get-volume"
+powershell  -c  "echo æœ¬æœºipæ˜¯: (get-netipconfiguration -interfacealias "ä»¥å¤ªç½‘").ipv4address.ipaddress;echo æ‚¨çš„æ“ä½œç³»ç»Ÿç‰ˆæœ¬æ˜¯:;wmic os  get caption;echo å½“å‰ç™»å½•ä¸»æœºè´¦æˆ·å:;[environment]::UserName;echo å½“å‰ä¸»æœºå:;[environment]::machinename;echo å½“å‰ä¸»æœºç£ç›˜ä½¿ç”¨æƒ…å†µ:;get-volume"
 
 
 
